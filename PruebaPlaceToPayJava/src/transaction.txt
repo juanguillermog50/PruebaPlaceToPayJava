@@ -1,0 +1,1 @@
+1456982339#1#b6bd069e4e30a12657709b679ca4c2e2#1412716#SUCCESS#3#?-#Transacción pendiente. Por favor verificar si el débito fue realizado en el Banco.#COP#1.0#https://registro.desarrollo.pse.com.co/PSEUserRegister/StartTransaction.htm?enc=tnPcJHMKlSnmRpHM8fAbu7reWJtDGzdBLjyKgM50IqufwK6WdHgqcEztus12ZK8r#2018-04-16T07:02:08-0500

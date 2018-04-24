@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Place To Pay</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="js/banks.js"></script>
+<script src="js/transaction.js"></script>
+<script src="js/countries.js"></script>
+</head>
+<body>
+
+	<form action="javascript:guardar()" method="post">
+		<table>
+			<tr>
+				<th colspan="2">Crear Transacción</th>
+			</tr>
+			<tr>
+				<td><label for="selBancos">Banco:</label></td>
+				<td><select id="selBancos"></select></td>
+			</tr>
+			<tr>
+				<td><label for="selBankInterface">Interfaz:</label></td>
+				<td><select id="selBankInterface">
+						<option value="0">Personas</option>
+						<option value="1">Empresas</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><label for="txtReference">Referencia de pago:</label></td>
+				<td><input id="txtReference" size="32" maxlength="32" /></td>
+			</tr>
+			<tr>
+				<td><label for="txtDescription">Descripción:</label></td>
+				<td><input id="txtDescription" size="100" maxlength="255" /></td>
+			</tr>
+			<tr>
+				<td><label for="txtTotalAmount">Total a pagar:</label></td>
+				<td><input id="txtTotalAmount" type="number" size="32" maxlength="32" /></td>
+			</tr>
+			<tr>
+				<td><label for="txtTaxAmount">Impuesto:</label></td>
+				<td><input id="txtTaxAmount" type="number" size="32" maxlength="32" /></td>
+			</tr>
+			<tr>
+				<td><label for="txtDevolutionBase ">Base de devolución:</label></td>
+				<td><input id="txtDevolutionBase" type="number" size="32" maxlength="32" /></td>
+			</tr>
+			<tr>
+				<td><label for="txtTipAmount ">Otros valores:</label></td>
+				<td><input id="txtTipAmount" type="number" size="32" maxlength="32" /></td>
+			</tr>
+			<tr>
+				<td><label for="txtDocument">Documento:</label></td>
+				<td><input id="txtDocument" size="12" maxlength="12" /></td>
+			</tr>
+			<tr>
+				<td><label for="selDocumentType">Tipo de documento:</label></td>
+				<td><select id="selDocumentType">
+						<option value="CC">Cédula de ciudanía colombiana</option>
+						<option value="CE">Cédula de extranjería</option>
+						<option value="TI">Tarjeta de identidad</option>
+						<option value="PPN">Pasaporte</option>
+						<option value="NIT">Número de identificación tributaria</option>
+						<option value="SSN">Social Security Number</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><label for="txtFirstName">Nombres:</label></td>
+				<td><input id="txtFirstName" size="60" maxlength="60" /></td>
+			</tr>
+			<tr>
+				<td><label for="txtLastName">Apellidos:</label></td>
+				<td><input id="txtLastName" size="60" maxlength="60" /></td>
+			</tr>
+			<tr>
+				<td><label for="txtCompany">Compañía:</label></td>
+				<td><input id="txtCompany" size="60" maxlength="60" /></td>
+			</tr>
+			<tr>
+				<td><label for="txtEmailAddress">Correo electrónico:</label></td>
+				<td><input id="txtEmailAddress" type="email" class="email"
+					size="80" maxlength="80" /></td>
+			</tr>
+			<tr>
+				<td><label for="txtAddress">Dirección:</label></td>
+				<td><input id="txtAddress" size="100" maxlength="100" /></td>
+			</tr>
+			<tr>
+				<td><label for="txtCity">Ciudad:</label></td>
+				<td><input id="txtCity" size="50" maxlength="50" /></td>
+			</tr>
+			<tr>
+				<td><label for="txtProvince">Departamento o Provincia:</label></td>
+				<td><input id="txtProvince" size="50" maxlength="50" /></td>
+			</tr>
+			<tr>
+				<td><label for="selCountry">Código del país:</label></td>
+				<td><select id="selCountry"></select></td>
+			</tr>
+			<tr>
+				<td><label for="txtPhone">Teléfono fijo:</label></td>
+				<td><input id="txtPhone" type="tel" size="30" maxlength="30" /></td>
+			</tr>
+			<tr>
+				<td><label for="txtMobile">Teléfono Movil:</label></td>
+				<td><input id="txtMobile" type="tel" size="30" maxlength="30" /></td>
+			</tr>
+			<tr>
+				<td><input id="enviar" type="submit" value="Enviar"
+					class="blue-button" /></td>
+				<td><input id="reset" type="reset" value="Limpiar"
+					class="blue-button" /></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.11 
+Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2018.04.15 a las 09:23:15 PM COT 
+
+  -->
+  <bindings xmlns:tns="https://placetopay.com/soap/pse" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.placetopay.prueba.ws"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:getBankList">
+      <class ref="com.placetopay.prueba.ws.GetBankList"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Authentication">
+      <class ref="com.placetopay.prueba.ws.Authentication"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:getBankListResponse">
+      <class ref="com.placetopay.prueba.ws.GetBankListResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfBank">
+      <class ref="com.placetopay.prueba.ws.ArrayOfBank"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:createTransaction">
+      <class ref="com.placetopay.prueba.ws.CreateTransaction"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PSETransactionRequest">
+      <class ref="com.placetopay.prueba.ws.PSETransactionRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:createTransactionResponse">
+      <class ref="com.placetopay.prueba.ws.CreateTransactionResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PSETransactionResponse">
+      <class ref="com.placetopay.prueba.ws.PSETransactionResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:createTransactionMultiCredit">
+      <class ref="com.placetopay.prueba.ws.CreateTransactionMultiCredit"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PSETransactionMultiCreditRequest">
+      <class ref="com.placetopay.prueba.ws.PSETransactionMultiCreditRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:createTransactionMultiCreditResponse">
+      <class ref="com.placetopay.prueba.ws.CreateTransactionMultiCreditResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:getTransactionInformation">
+      <class ref="com.placetopay.prueba.ws.GetTransactionInformation"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:getTransactionInformationResponse">
+      <class ref="com.placetopay.prueba.ws.GetTransactionInformationResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TransactionInformation">
+      <class ref="com.placetopay.prueba.ws.TransactionInformation"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Attribute">
+      <class ref="com.placetopay.prueba.ws.Attribute"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfAttribute">
+      <class ref="com.placetopay.prueba.ws.ArrayOfAttribute"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Bank">
+      <class ref="com.placetopay.prueba.ws.Bank"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Person">
+      <class ref="com.placetopay.prueba.ws.Person"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CreditConcept">
+      <class ref="com.placetopay.prueba.ws.CreditConcept"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfCreditconcept">
+      <class ref="com.placetopay.prueba.ws.ArrayOfCreditconcept"/>
+    </bindings>
+  </bindings>
+</bindings>
